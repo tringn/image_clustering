@@ -36,7 +36,7 @@ You need to download extractor model first
 python build_data.py
 ``` 
 
-I used all images crawled from champselysees_paris Instagram (![link](https://www.instagram.com/champselysees_paris/))
+I used all images crawled from champselysees_paris Instagram ([link](https://www.instagram.com/champselysees_paris/))
 
 You can crawl champselysees_paris images or you can use your own images.
 
@@ -69,7 +69,7 @@ I apply the elbow curve method to determine the best number of cluster as descri
 
 #### Step 3.1: Find the best K clusters
 
-I iterate k from 1 to 100. From k = 1 to k = 40, the Squared Error decreases significantly. From k = 40 to k = 100, there is a slight fall in Squared Error compared with previous changes. So I choose k = 40 that is the best number of cluster.
+I iterated k from 1 to 100. From k = 1 to k = 40, the Squared Error decreases significantly. From k = 40 to k = 100, there is a slight fall in Squared Error compared with previous changes. So I choose k = 40 that is the best number of cluster.
 
 ![cost_function](docs/illustration/cost_function.png)
 
@@ -79,7 +79,7 @@ Run following script to reduce feature dimension and find best number of k.
 python find_k.py
 ``` 
 
-Go to `visualization/example/cost_2D.png` to find the best value of K (where cost decrease much more little compared with previous)
+Go to `visualization/example/cost_2D.png` to find the best value of K (where cost decreases much more little compared with previous)
 
 #### Step 3.2: Cluster images into k subsets
 
