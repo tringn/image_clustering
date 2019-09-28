@@ -1,0 +1,17 @@
+{
+    "paths": {
+        "image_dir": "data/raw",
+        "model_dir": "models",
+        "vector_dir": "results/vectors",
+        "cluster_label_dir": "results/cluster_label/",
+        "plot_dir": "visualization/",
+        "link_dir": "results/link",
+        "data_url": "http://download.tensorflow.org/models/image/imagenet/inception-2015-12-05.tgz"
+    },
+    "model": {
+        "object_name": "example",
+        "mode": "analysis",
+        "reduced_dimension": 2,
+        "k": 40
+    }
+}
